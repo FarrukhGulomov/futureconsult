@@ -13,7 +13,7 @@
 :root{
 --bodybg:#DCDCDC;
 --navbg:#F8F8FF;
---linkcolor:#585858;
+--linkcolor:#3f3f3f;
 --textcolor:#8f8f8f;
 --titlecolor:#1d1d1d;
 
@@ -39,7 +39,7 @@ ul{
  list-style: none;}
 body{
  background-color:var(--bodybg);
- font-size: 16px;
+ font-size: 14px;
  font-family: 'OpenSans-SemiBold';
 
 }
@@ -59,21 +59,24 @@ header .navbar{
  left: 0;
 }
 header .navbar .navbar-brand{
- margin-right: 15px;
- margin-left: 15px;
 }
 header .navbar .navbar-brand img{
  width: 175px;
  height: 46px;
 }
+header .navbar .navbar-nav{
+ text-align: center;
+}
 header .navbar .navbar-nav li{
  display: inline-block;
 }
 header .navbar .navbar-nav li{
- margin-left: 35px;
- margin-right: 5px;
- 
+ margin-left: 20px;
+ margin-right: 20px;
+
 }
 ul li a{
+text-transform: uppercase;
  color:var(--linkcolor);
+ font-size: 12px;
 }
