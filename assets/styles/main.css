@@ -4,7 +4,7 @@
 /* 
 1.Variables (13-21 rows)
 2.Global Settings(22-36 rows)
-3.Header()
+3.Header
 4.Main
 5.Footer
 #f1f1f1 
@@ -85,6 +85,8 @@ text-transform: uppercase;
 color:var(--linkcolor);
 font-size: 12px;
 }
+
+
 .multiple-language .main-language{
  
 }
