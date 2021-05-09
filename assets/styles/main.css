@@ -11,8 +11,8 @@
 
 /* --------Variables-------- */
 :root{
---bodybg:#DCDCDC;
---navbg:#F8F8FF;
+--bodybg:#34384b;
+--navbg:#f1f1f1;
 --linkcolor:#3f3f3f;
 --textcolor:#8f8f8f;
 --titlecolor:#1d1d1d;
@@ -58,8 +58,7 @@ header .navbar{
  right: 0;
  left: 0;
 }
-header .navbar .navbar-brand{
-}
+
 header .navbar .navbar-brand img{
  width: 175px;
  height: 46px;
@@ -75,7 +74,7 @@ header .navbar .navbar-nav li{
  margin-right: 20px;
 
 }
-ul li a{
+header .navbar .navbar-nav li a{
 text-transform: uppercase;
  color:var(--linkcolor);
  font-size: 12px;
