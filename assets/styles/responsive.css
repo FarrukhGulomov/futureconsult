@@ -8,35 +8,35 @@
 */
 
 @media (min-width:992px) {
-  
-
-    .line-bottom{
-        display: block;
-        width: 0%;
-        height: 2px;
-        background-color:  var(--hovercolor);
-        transition: all .7s linear 0s;
-        }
-    header .navbar .navbar-nav li .line-bottom{
-        transition: all .7s linear 0s;
-       }
-    header .navbar .navbar-nav li:hover .line-bottom{
-        width: 100%;
-        transition: all .5s ease 0s;
-       }
+.line-bottom{
+ display: block;
+ width: 0%;
+ height: 2px;
+ background-color:  var(--hovercolor);
+ transition: all .7s linear 0s;
+}
+header .navbar .navbar-nav li .line-bottom{
+ transition: all .7s linear 0s;
+}
+header .navbar .navbar-nav li:hover .line-bottom{
+ width: 100%;
+ transition: all .5s ease 0s;
+}
        
-       header .navbar .navbar-nav li a:hover{
-        color: var(--hovercolor);
-        
-       }
-      
-
-
+header .navbar .navbar-nav li a:hover{
+ color: var(--hovercolor);
+}
+#menuToggle{
+ display: none;
+}
 }
 @media (max-width:991px) {
-    #menuToggle{
-        display: block;
-    }
+#menuToggle{
+ display: block;
+}
+.navbar-nav{
+display: none;
+}
 }
 
 
