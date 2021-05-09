@@ -6,13 +6,13 @@
 3.Header()
 4.Main
 5.Footer
-
+#f1f1f1 
 */
 
 /* --------Variables-------- */
 :root{
---bodybg:#292c3b;
---navbg:#f1f1f1;
+--mainbg:#3D4F64;;
+--secondbg:#E5E5E5;;
 --linkcolor:#3f3f3f;
 --textcolor:#8f8f8f;
 --titlecolor:#1d1d1d;
@@ -38,16 +38,19 @@ a{
 ul{
  list-style: none;}
 body{
- background-color:var(--bodybg);
+ background-color:var(--mainbg);
  font-size: 14px;
  font-family: 'OpenSans-SemiBold';
+ color:var(--textcolor)
 
 }
 /* -----Header------------- */
 
 header .navbar{
  padding: 30px 0;
- background-color: var(--navbg);
+ background-color: var(--secondbg);
+ 
+ /* box-shadow: 0 4px 6px rgba(0, 0, 0,.8); */
 }
 .navbar{
  display: flex;
@@ -62,6 +65,7 @@ header .navbar{
 header .navbar .navbar-brand img{
  width: 175px;
  height: 46px;
+ 
 }
 header .navbar .navbar-nav{
  text-align: center;
