@@ -16,6 +16,7 @@
 --linkcolor:#3f3f3f;
 --textcolor:#8f8f8f;
 --titlecolor:#1d1d1d;
+--hovercolor:#0C0537;
 
 }
 .justify-content-center{
@@ -80,6 +81,21 @@ header .navbar .navbar-nav li{
 }
 header .navbar .navbar-nav li a{
 text-transform: uppercase;
- color:var(--linkcolor);
- font-size: 12px;
+color:var(--linkcolor);
+font-size: 12px;
+}
+header .navbar .navbar-nav li:hover .line-bottom{
+ width: 100%;
+ transition: all .5s ease 0s;
+}
+
+header .navbar .navbar-nav li a:hover{
+ color: var(--hovercolor);
+ 
+}
+.line-bottom{
+display: block;
+width: 0%;
+height: 2px;
+border-bottom: 2px solid var(--hovercolor);
 }
