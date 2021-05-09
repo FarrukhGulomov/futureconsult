@@ -1,19 +1,11 @@
-@import url('fonts.css');
-@font-face {
-    font-family: 'B612';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/b612-v5-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/b612-v5-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
+@import url('fonts.css');  
+
 /* 
 1.Variables (13-21 rows)
 2.Global Settings(22-36 rows)
 3.Header()
 4.Main
 5.Footer
-
-
 
 */
 
@@ -48,19 +40,23 @@ ul{
 body{
  background-color:var(--bodybg);
  font-size: 16px;
- font-family: 'B612';
+ font-family: 'OpenSans-SemiBold';
  font-style: normal;
  font-weight: 400;
 }
 
 /* -----Header------------- */
 header .navbar{
- padding: 40px 0;
+ padding: 30px 0;
+ background-color: var(--navbg);
 }
 header .navbar .navbar-nav{
  display: flex;
 }
 header .navbar .navbar-nav li{
- padding-left: 10px;
+ padding-left: 15px;
  padding-right: 45px;
+}
+ul li a{
+ color:var(--linkcolor);
 }
