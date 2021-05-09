@@ -1,8 +1,11 @@
 @import url(fonts.css);
 /* 
-1.Variables
-2.Global Settings
-3.
+1.Variables (13-21 rows)
+2.Global Settings(22-36 rows)
+3.Header()
+4.Main
+5.Footer
+
 
 
 */
@@ -16,17 +19,41 @@
 --titlecolor:#1d1d1d;
 
 }
+.justify-content-center{
+ justify-content: center;
+}
+.align-items-center{
+ align-items: center;
+}
 /* -----Global settings----- */
 *,*::after,*::before{
  padding: 0;
  margin: 0;
  font-size: 14px;
  box-sizing: border-box;
+ scroll-behavior: smooth;
 }
+a{ 
+ display: block;
+ text-decoration: none;}
+ul{
+ list-style: none;}
 body{
  background-color:var(--bodybg);
  font-size: 16px;
  font-family: 'Open Sans',sans-serif;
  font-style: normal;
- font-weight: 700;
+ font-weight: 400;
+}
+
+/* -----Header------------- */
+header .navbar{
+ padding: 40px 0;
+}
+header .navbar .navbar-nav{
+ display: flex;
+}
+header .navbar .navbar-nav li{
+ padding-left: 10px;
+ padding-right: 35px;
 }
