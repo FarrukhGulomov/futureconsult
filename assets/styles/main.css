@@ -1,0 +1,13 @@
+:root{
+
+}
+/* -----Global settings----- */
+*{
+ padding: 0;
+ margin: 0;
+ font-size: 14px;
+ box-sizing: border-box;
+}
+body{
+ background-color: #1c2128;
+}
