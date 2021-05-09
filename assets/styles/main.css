@@ -1,3 +1,4 @@
+@import url(fonts.css);
 /* 
 1.Variables
 2.Global Settings
@@ -6,15 +7,17 @@
 
 */
 
-
 /* --------Variables-------- */
 :root{
---bodybg:#dddcdc;
---
+--bodybg:#DCDCDC;
+--navbg:#F8F8FF;
+--linkcolor:#222525;
+--textcolor:#8f8f8f;
+--titlecolor:#1d1d1d;
 
 }
 /* -----Global settings----- */
-*{
+*,*::after,*::before{
  padding: 0;
  margin: 0;
  font-size: 14px;
@@ -22,4 +25,8 @@
 }
 body{
  background-color:var(--bodybg);
+ font-size: 16px;
+ font-family: 'Open Sans',sans-serif;
+ font-style: normal;
+ font-weight: 700;
 }
