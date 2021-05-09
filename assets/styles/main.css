@@ -13,7 +13,7 @@
 :root{
 --bodybg:#DCDCDC;
 --navbg:#F8F8FF;
---linkcolor:#222525;
+--linkcolor:#585858;
 --textcolor:#8f8f8f;
 --titlecolor:#1d1d1d;
 
@@ -41,8 +41,7 @@ body{
  background-color:var(--bodybg);
  font-size: 16px;
  font-family: 'OpenSans-SemiBold';
- font-style: normal;
- font-weight: 400;
+
 }
 
 /* -----Header------------- */
@@ -50,12 +49,12 @@ header .navbar{
  padding: 30px 0;
  background-color: var(--navbg);
 }
-header .navbar .navbar-nav{
- display: flex;
+header .navbar .navbar-nav li{
+ display: inline-block;
 }
 header .navbar .navbar-nav li{
- padding-left: 15px;
- padding-right: 45px;
+ padding-left: 35px;
+ padding-right: 35px;
 }
 ul li a{
  color:var(--linkcolor);
