@@ -8,7 +8,7 @@
 */
 
 @media (min-width:992px) {
-.line-bottom{
+.line-bottom,.active{
  display: block;
  width: 0%;
  height: 2px;
@@ -16,11 +16,11 @@
  transition: all .7s linear 0s;
 }
 header .navbar .navbar-nav li .line-bottom{
- transition: all .7s linear 0s;
+ transition: all .5s linear 0s;
 }
-header .navbar .navbar-nav li:hover .line-bottom{
+header .navbar .navbar-nav li:hover .line-bottom,
+.active{
  width: 100%;
- transition: all .5s ease 0s;
 }
        
 header .navbar .navbar-nav li a:hover{
