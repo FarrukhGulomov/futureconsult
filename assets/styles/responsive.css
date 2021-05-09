@@ -5,6 +5,18 @@
 1025px — 1200px: Desktops, large screens
 */
 
+@media (min-width:992px) {
+    #menuToggle{
+        display: none;
+    }
+}
+@media (max-width:991px) {
+    #menuToggle{
+        display: block;
+    }
+}
+
+
 /*  Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {  }
 
@@ -19,4 +31,5 @@
 
  /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  }
+
 
