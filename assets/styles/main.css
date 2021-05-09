@@ -1,5 +1,6 @@
 @import url('fonts.css');  
 
+
 /* 
 1.Variables (13-21 rows)
 2.Global Settings(22-36 rows)
@@ -7,12 +8,13 @@
 4.Main
 5.Footer
 #f1f1f1 
+--secondbg:#E5E5E5;
 */
 
 /* --------Variables-------- */
 :root{
---mainbg:#3D4F64;;
---secondbg:#E5E5E5;;
+--mainbg:#3D4F64;
+--secondbg:#E5E5E5;
 --linkcolor:#3f3f3f;
 --textcolor:#8f8f8f;
 --titlecolor:#1d1d1d;
@@ -40,7 +42,6 @@ ul{
  list-style: none;}
 body{
  background-color:var(--mainbg);
- font-size: 14px;
  font-family: 'OpenSans-SemiBold';
  color:var(--textcolor)
 
@@ -84,18 +85,5 @@ text-transform: uppercase;
 color:var(--linkcolor);
 font-size: 12px;
 }
-header .navbar .navbar-nav li:hover .line-bottom{
- width: 100%;
- transition: all .5s ease 0s;
-}
 
-header .navbar .navbar-nav li a:hover{
- color: var(--hovercolor);
- 
-}
-.line-bottom{
-display: block;
-width: 0%;
-height: 2px;
-border-bottom: 2px solid var(--hovercolor);
-}
+    

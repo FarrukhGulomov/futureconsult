@@ -1,3 +1,5 @@
+
+
 /* 
 320px — 480px: Mobile devices
 481px — 768px: iPads, Tablets
@@ -6,9 +8,30 @@
 */
 
 @media (min-width:992px) {
-    #menuToggle{
-        display: none;
-    }
+  
+
+    .line-bottom{
+        display: block;
+        width: 0%;
+        height: 2px;
+        background-color:  var(--hovercolor);
+        transition: all .7s linear 0s;
+        }
+    header .navbar .navbar-nav li .line-bottom{
+        transition: all .7s linear 0s;
+       }
+    header .navbar .navbar-nav li:hover .line-bottom{
+        width: 100%;
+        transition: all .5s ease 0s;
+       }
+       
+       header .navbar .navbar-nav li a:hover{
+        color: var(--hovercolor);
+        
+       }
+      
+
+
 }
 @media (max-width:991px) {
     #menuToggle{
