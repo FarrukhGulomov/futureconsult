@@ -1,100 +1,83 @@
-var url = "www.futureconsult.uz/abiturients.html";
-url = url.substring(0, url.lastIndexOf("."));
+var ready = function (cb) {
+    // Check if the `document` is loaded completely
+    document.readyState === "loading"
+        ? document.addEventListener("DOMContentLoaded", function (e) {
+            cb();
+        })
+        : cb();
+};
 
+// Usage
+ready(function () {
+    //   Loader //
+    const loader = document.querySelector('.loader');
+    setTimeout(function () {
+        loader.style.opacity = '0';
+        setTimeout(function () {
+            loader.style.display = 'none';
+        }, 500);
+    }, 2000);
 
-function postLike(e) {
-    var element = $(e.currentTarget)['context'];
-    switch (element.className) {
-        case "like-post":
-            url = "like";
-            postLikeRequest("like", e.currentTarget);
-            break;
-        case "unlike-post":
-            postLikeRequest("unlike", e.currentTarget);
-            break;
+    //Hamburg menu //
+    const hamburg = document.querySelector('.openBtn');
+    const navbar = document.querySelector('.navbar');
+    const language = document.querySelector('.multiple-language');
+    const logo = document.querySelector('.navbar-brand');
+    const navbarNav = document.querySelector('.navbar-nav');
+    const closeBtn = document.querySelector('.closeBtn');
+    var toggle = false;
+
+    // function
+    function navbarFunc() {
+        logo.classList.toggle('hide');
+        hamburg.classList.toggle('d-none');
+        navbar.classList.toggle('slideDown');
+        navbarNav.classList.toggle('hide');
+        closeBtn.classList.toggle('toggle');
+        language.classList.toggle('hide');
     }
-
-}
-function myModal(title, body, type = 'custom') {
-    var postModal = $('#custom-modal');
-    var postModalHeaderTitle = postModal.find('#modal-header');
-    var postModalHeader = postModal.find('.modal-header');
-    var postModalContent = postModal.find('#modal-content');
-    if (!postModal.hasClass('in'))
-        postModal.addClass('in');
-    if (type === 'danger') {
-        postModalHeader.removeClass("bg-success");
-        postModalHeader.addClass("bg-danger");
-        postModalHeaderTitle.css("color", "#FFFFFF")
-    } else if (type === 'success') {
-        postModalHeader.removeClass("bg-danger");
-        postModalHeader.addClass("bg-success");
-        postModalHeaderTitle.css("color", "#FFFFFF")
-    }
-    postModalHeaderTitle.html(title);
-    postModalContent.html(body);
-
-    postModal.modal("show");
-}
-
-function postLikeRequest(url, element) {
-    postID = element.dataset.postid;
-    element = $(element);
-    $.post("/post-like/" + url, {post_id: postID, "_csrf-frontend": yii.getCsrfToken()}, function (data) {
-        if (data.success) {
-            element.toggleClass("like-post unlike-post");
-            var icon = element.find('.zmdi');
-            icon.toggleClass('zmdi-favorite zmdi-favorite-outline');
-            element.find('.like-count').text(data.count)
+    hamburg.addEventListener('click', () => {
+        toggle = true;
+        if (toggle) {
+            navbarFunc();
+            toggle = false;
         }
     });
-}
-
-function postUnLike(postID, element) {
-    $.delete("/post-like/unlike", {post_id: postID, "_csrf-frontend": yii.getCsrfToken()}, function (data) {
-        if (data.success) {
-            element.toggleClass("like-post unlike-post");
-            var icon = element.find('.zmdi');
-            icon.toggleClass('zmdi-favorite zmdi-favorite-outline');
+    closeBtn.addEventListener('click', () => {
+        if (!toggle) {
+            navbarFunc();
         }
-    })
-}
-
-(function ($) {
-    "use strict";
-
-    jQuery.each(["put", "delete"], function (i, method) {
-        jQuery[method] = function (url, data, callback, type) {
-            if (jQuery.isFunction(data)) {
-                type = type || callback;
-                callback = data;
-                data = undefined;
-            }
-
-            return jQuery.ajax({
-                url: url,
-                type: method,
-                dataType: type,
-                data: data,
-                success: callback
-            });
-        };
     });
- 
-    /*-----------------------------
-        Menu Stick
-    ---------------------------------*/
-    $(window).on('scroll', function () {
-        if ($(this).scrollTop() > 1) {
-            $('.sticker').addClass("stick");
+    //Multiple language //
+    var mainLang = document.querySelector('.main-language');
+    var langBox = document.querySelector('.second-languages');
+    var secondLanguage = document.querySelector('.lang_btn');
+    var is = false;
+
+    function languages() {
+        if (is) {
+            langsBox.classList.add('d-block');
+            setTimeout(function () {
+                langsBox.style.opacity = '1';
+            }, 100);
+
         } else {
-            $('.sticker').removeClass("stick");
+            langsBox.classList.remove('d-block');
         }
+    }
+
+    mainLanguage.addEventListener('mouseover', () => {
+        is = true;
+        languages();
+        is = false;
     });
 
-  
+    langsBox.addEventListener('mouseleave', () => {
+        languages();
+    });
 
-  
-    
-})
+
+});
+
+ 
 

@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45510a67-34fa-49d1-a869-152b56531399" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abiturients.html" beforeDir="false" afterPath="$PROJECT_DIR$/abiturients.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +37,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620519471636</updated>
-      <workItem from="1620519474489" duration="297000" />
+      <workItem from="1620519474489" duration="995000" />
+      <workItem from="1620658059252" duration="1381000" />
+      <workItem from="1620749411401" duration="596000" />
+      <workItem from="1621645298549" duration="950000" />
+      <workItem from="1621673370968" duration="1355000" />
     </task>
     <servers />
   </component>

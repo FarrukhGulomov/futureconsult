@@ -15,6 +15,10 @@
  background-color:  var(--hovercolor);
  transition: all .7s linear 0s;
 }
+header .navbar{
+ border-bottom: 1px solid #E5E5E5;  
+ /* box-shadow: 0 0px 2px rgba(0, 0, 0,.9); */
+}
 header .navbar .navbar-nav li .line-bottom{
  transition: all .5s linear 0s;
 }
@@ -23,36 +27,130 @@ header .navbar .navbar-nav li:hover .line-bottom,
  width: 100%;
 }
        
-header .navbar .navbar-nav li a:hover{
+header .navbar .navbar-nav li a:hover,
+.active{
  color: var(--hovercolor);
 }
 #menuToggle{
  display: none;
 }
+/*Animations*/
+  @keyframes moveInLeft {
+  0%{
+   opacity: 0;
+   transform:translateX(-100px);
+    }
+80%{
+   transform: translateX(10px); 
+    }
+100%{
+    opacity: 1;
+    transform:translateX(0);
+    }
+  }
+  @keyframes moveInRight {
+ 0%{
+    opacity: 0;
+    transform:translateX(100px);}
+80%{
+    transform: translateX(-10px); }
+100%{
+    opacity: 1;
+    transform:translateX(0);}}
+
+@keyframes showText{
+  0%{
+    opacity: 0;
+  }
+  80%{
+    opacity: .5;
+  }
+  100%{
+   opacity: 1;
+  }
 }
+@keyframes moveInBottom{
+0% {
+  opacity: 0;
+  transform: translateY(30px);   
+  }
+
+100%{
+  opacity: 1;
+  transform: translateX(0);  
+  }
+}
+
+.main-title-first{
+  animation: moveInLeft 4s ease-in-out;
+   }
+ .main-title-second{
+  animation: moveInRight 4s ease-in-out;
+ }
+.main-text{
+ animation: showText 5.2s ease-out;
+}
+
+}
+
 @media (max-width:991px) {
-#menuToggle{
- display: block;
+.social,
+.hide{ 
+ opacity: 0;
+ display: none;
+ transition:opacity .4s
+ display .5s;
 }
-.navbar-nav{
-display: none;
+.social {
+display: flex;
 }
+.slideDown{
+ transition: .3s;
+ height: 100vh;
+ }
+ ::-webkit-scrollbar {
+  width: 0px;
+  background: rgba(255, 255, 255, 0.0);
+}
+
+header .navbar .navbar-nav li{
+ display: flex;
+ justify-content: center;
+ padding: 25px 0;
+}
+header .navbar .navbar-nav li a{
+font-size: 18px;
+color:var(--titlecolor);
+}
+
 }
 
 
-/*  Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {  }
+/*  Extra small devices (portrait socials, less than 576px) */
+@media (max-width: 575.98px) {
+  
+    
+    
+  }
 
-/*  Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {  }
+/*  Small devices (landscape socials, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  
+  }
 
  /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {  }
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  
+ }
 
  /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {  }
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+   
+ }
 
  /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) { 
+   
+ }
 
 
