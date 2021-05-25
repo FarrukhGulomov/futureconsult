@@ -10,7 +10,7 @@ var ready = function (cb) {
 // Usage
 ready(function () {
     //   Loader //
-    const loader = document.querySelector('.loader');
+    var loader = document.querySelector('.loader');
     setTimeout(function () {
         loader.style.opacity = '0';
         setTimeout(function () {
@@ -19,14 +19,13 @@ ready(function () {
     }, 2000);
 
     //Hamburg menu //
-    const hamburg = document.querySelector('.openBtn');
-    const navbar = document.querySelector('.navbar');
-    const language = document.querySelector('.multiple-language');
-    const logo = document.querySelector('.navbar-brand');
-    const navbarNav = document.querySelector('.navbar-nav');
-    const closeBtn = document.querySelector('.closeBtn');
+    var hamburg = document.querySelector('.openBtn');
+    var navbar = document.querySelector('.navbar');
+    var language = document.querySelector('.multiple-language');
+    var logo = document.querySelector('.navbar-brand');
+    var navbarNav = document.querySelector('.navbar-nav');
+    var closeBtn = document.querySelector('.closeBtn');
     var toggle = false;
-
     // function
     function navbarFunc() {
         logo.classList.toggle('hide');
@@ -38,6 +37,7 @@ ready(function () {
     }
     hamburg.addEventListener('click', () => {
         toggle = true;
+        console.log('helloooo')
         if (toggle) {
             navbarFunc();
             toggle = false;

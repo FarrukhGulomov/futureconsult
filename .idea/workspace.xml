@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45510a67-34fa-49d1-a869-152b56531399" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/img/fullinform-bg.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abiturients.html" beforeDir="false" afterPath="$PROJECT_DIR$/abiturients.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/responsive.css" afterDir="false" />
@@ -18,12 +18,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1sHB84SFeiExdDIRTLargjnR6YF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -41,11 +45,15 @@
       <workItem from="1620658059252" duration="1381000" />
       <workItem from="1620749411401" duration="596000" />
       <workItem from="1621645298549" duration="950000" />
-      <workItem from="1621673370968" duration="1355000" />
+      <workItem from="1621673370968" duration="2019000" />
+      <workItem from="1621741255554" duration="5567000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

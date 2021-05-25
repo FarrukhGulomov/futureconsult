@@ -14,12 +14,13 @@
 
 /* --------Variables-------- */
 :root{
---mainbg:#0c5072;
+--mainbg:#043f5c;
 --secondbg:#E5E5E5;
 --linkcolor:#043f5c;
 --textcolor:#8f8f8f;
 --titlecolor:#1d1d1d;
 --hovercolor:#0C0537;
+--white-grey:#f1faee;
 
 }
 
@@ -30,17 +31,21 @@
  box-sizing: border-box;
  
 }
-a{ 
- text-decoration: none;}
-ul{
- list-style: none;}
 body{
-
  font-size: 14px;
  background-color:var(--mainbg);
  font-family: 'OpenSans-SemiBold';
  color:var(--textcolor);
 }
+html{
+scroll-behavior: smooth;
+}
+a{ 
+ text-decoration: none;}
+ul{
+ list-style: none;}
+
+
 
 /*------loader---------------*/
 @keyframes logo{
@@ -104,6 +109,7 @@ header a{
  left: 0;
  transition: all .3s ease 0s;
  z-index: 20;
+
 }
 
 header .navbar .navbar-brand img{
@@ -115,8 +121,6 @@ header .navbar .navbar-nav{
 }
 header .navbar .navbar-nav li{
  display: inline-block;
- margin-left: 20px;
- margin-right: 20px;
 }
 header .navbar .navbar-nav li a{
  text-transform: uppercase;
@@ -187,15 +191,15 @@ header #menuToggle .openBtn:hover{
  transform: translate(20%,0%);
 }
 /* -----Main--------------- */
+/*section-1*/
 main .introduction{
  background: rgba(0, 0, 0,.9) url('../img/bgmagistr.jpg');
  background-position:center;
- background-position-y: 50%;
- background-size: cover;
  background-repeat: no-repeat;
- min-height: 650px;
+ background-position-y: 36%;
+ background-size: cover;
+ min-height: 700px;
  opacity: .6;
- 
 }
 main .introduction .main-card{
 margin: 50px 0;
@@ -206,19 +210,17 @@ backface-visibility: hidden;
 main .introduction .main-card h1{
  font-size: 30px;
  line-height: 35px;
- letter-spacing: 2px;
+ letter-spacing: 0px;
  font-family: 'Roboto-Bold';
  color: #FFFFFF;
 }
 
 main .introduction .main-card p{
- font-size: 18px;
+ font-size: 16px;
  font-family: 'Roboto-Bold';
  color: #fefefe;
  text-align:justify;
  line-height: 25px;
- word-spacing: 2;
- letter-spacing: 1.5px;
  padding-top: 10px;
  padding-bottom: 50px;
 }
@@ -247,9 +249,7 @@ main .btn-content a{
 .main-btn-info .rightIcon{
  margin-right: 10px;
 }
-.main-title span{
- display: block;
-}
+
 .btn:hover{
  transform: translateY(-3px);
  box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
@@ -282,3 +282,68 @@ background-color: #0d6efd;
  transform: scaleX(1.2) scaleY(1.3);
  opacity: 0;
 }
+/*section-2*/
+.full-introduction{
+ padding-top: 120px;
+ padding-bottom: 30px;
+ background-color: var(--secondbg);
+}
+main .fullInform-photo{
+ background: #043f5c url('../img/bg3.jpg') center/cover no-repeat;
+ height: 500px;
+ max-height: 500px;
+ border-radius: 4px;
+ box-shadow: 0 0 8px rgba(0, 0, 0, .4);
+ cursor: pointer;
+ transition: all .5s ease 0s;
+}
+main .fullInform-photo:hover{
+ box-shadow: none;
+ transition: all .5s ease 0s;
+}
+main .fullInform-text{
+color:#000;
+}
+main .fullInform-text{
+font-family:'Roboto-Regular';
+padding: 0 25px;
+height: 500px;}
+main .fullInform-text h1{
+font-size:60px; 
+line-height:30px;
+text-transform:uppercase;
+display:flex;
+justify-content:space-evenly;
+color:#043f5c;}
+main .fullInform-text p{
+font-size:16px;
+color:var(--titlecolor);
+text-indent:25px;
+line-height:22px;}
+/*section-3*/
+main .advantages{
+padding-top: 10px;
+padding-bottom: 45px;
+background-color: var(--secondbg);
+text-align: center;
+
+}
+main .advantages h1{
+font-size: 50px;
+text-transform: uppercase;
+color: #043f5c;
+text-align: center;
+}
+main .advantages .photo-advantage{
+width: 100%;
+margin:15px 0;
+background-image: url('../img/advantage1.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+padding: 150px 0;
+
+}
+
+
+
