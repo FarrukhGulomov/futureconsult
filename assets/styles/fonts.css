@@ -1,29 +1,27 @@
 /* Open sans */
 @font-face {
-    font-family: 'OpenSans-Regular';
-    src: url('../googlefonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+  font-family: "OpenSans-Regular";
+  src: url("../googlefonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
 }
 @font-face {
-    font-family: 'OpenSans-Light';
-    src: url('../googlefonts/Open_Sans/OpenSans-Light.ttf') format('truetype');;
+  font-family: "OpenSans-Light";
+  src: url("../googlefonts/Open_Sans/OpenSans-Light.ttf") format("truetype");
 }
 @font-face {
-    font-family: 'OpenSans-SemiBold';
-    src: url('../googlefonts/Open_Sans/OpenSans-SemiBold.ttf') format('truetype');;
+  font-family: "OpenSans-SemiBold";
+  src: url("../googlefonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype");
 }
 @font-face {
-    font-family: 'OpenSans-Bold';
-    src: url('../googlefonts/Open_Sans/OpenSans-Bold.ttf') format('truetype');;
+  font-family: "OpenSans-Bold";
+  src: url("../googlefonts/Open_Sans/OpenSans-Bold.ttf") format("truetype");
 }
 
 /* Roboto */
 @font-face {
-    font-family: 'Roboto-Regular';
-    src: url('../googlefonts/Roboto/Roboto-Regular.ttf') format('truetype');;
+  font-family: "Roboto-Regular";
+  src: url("../googlefonts/Roboto/Roboto-Regular.ttf") format("truetype");
 }
 @font-face {
-    font-family: 'Roboto-Bold';
-    src:url('../googlefonts/Roboto/Roboto-Bold.ttf') format('truetype');
-  }
-
-  
+  font-family: "Roboto-Bold";
+  src: url("../googlefonts/Roboto/Roboto-Bold.ttf") format("truetype");
+}
