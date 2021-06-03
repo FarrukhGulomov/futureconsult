@@ -121,6 +121,7 @@
 width: 0px;
 background: rgba(255, 255, 255, 0.0);
 } */
+
   .navbar {
     padding-top: 20px;
     
@@ -138,7 +139,7 @@ background: rgba(255, 255, 255, 0.0);
     padding: 35px 0;
   }
   main .mobile-bg {
-    background: rgba(0, 0, 0, 0.9) url("../img/bgMobile.jpg") center/cover
+    background: rgba(0, 0, 0, 0.9) url("../img/bgMobile-min.jpg") center/cover
       no-repeat;
     padding: 150px;
     opacity: 0.6;
