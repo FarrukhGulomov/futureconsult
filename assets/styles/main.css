@@ -400,7 +400,7 @@ main .feedback .feedback-title {
 main .feedback .feedback-box{
 border: 1px solid transparent;
 padding: 50px 15px;
-height: 425px;
+height: 700px;
 background-color: var(--secondbg);
 }
 
@@ -409,17 +409,18 @@ main .feedback .feedback-img{
   box-shadow: 0 0px 4px rgba(0, 0, 0, 0.2);
 }
 main .feedback .name-abiturient{
-  padding: 15px 0;
-  font-size: 24px;
+  padding: 35px 0;
+  font-size: 30px;
   color:var(--titlecolor);
   font-family: "OpenSans-SemiBold";
 }
 main .feedback .feedback-text{
  font-family: "Roboto-Regular";
- font-size: 16px;
+ font-size: 18px;
  padding: 0 45px;
  color: var(--textcolor);
  text-align: justify;
+ font-style: italic;
 }
 
 
