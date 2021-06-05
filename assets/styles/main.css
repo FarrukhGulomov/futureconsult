@@ -197,18 +197,15 @@ header #menuToggle .openBtn:hover {
 /* -----Main--------------- */
 /*section-1*/
 main .introduction {
-  background: url("../img/bgmagistr-min.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-position-y: 36%;
-  background-size: cover;
   min-height: 700px;
-  opacity: 0.7;
+ 
 }
+
 main .introduction .main-card {
   margin: 50px 0;
   padding: 25px 45px;
   backface-visibility: hidden;
+  z-index: 10;
 }
 main .introduction .main-card h1 {
   font-size: 30px;
@@ -220,8 +217,8 @@ main .introduction .main-card h1 {
 
 main .introduction .main-card p {
   font-size: 16px;
-  font-family: "OpenSans-Light";
-  color: #fefefe;
+  font-family: "Roboto-Regular";
+  /* color: var(--white-grey); */
   text-align: justify;
   line-height: 25px;
   padding-top: 10px;
@@ -286,10 +283,10 @@ main .btn-content a {
 }
 /*section-2*/
 .full-introduction {
-padding-bottom: 45px;
+  padding-bottom: 45px;
 }
 
-main .fullInform-logo{
+main .fullInform-logo {
   font-size: 100px;
   line-height: 50px;
   text-transform: uppercase;
@@ -304,20 +301,19 @@ main .fullInform-photo {
 main .fullInform-text {
   font-family: "Roboto-Regular";
   padding: 0 25px;
-  border: 2px solid #00b1e3;
+  border: 1px solid transparent;
   height: 500px;
 }
 main .fullInform-photo,
 main .fullInform-text {
   height: 500px;
   border-radius: 4px;
-  box-shadow: 0 0 8px rgba(255, 255, 255, 0.4),
-    inset 0 0px 8px rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.2),
+    inset 0 0 4px rgba(255, 255, 255, 0.2);
   cursor: pointer;
   transition: all 0.5s ease 0s;
 }
-main .fullInform-photo:hover,
-main .fullInform-text:hover {
+main .fullInform-photo:hover {
   box-shadow: none;
   transition: all 0.5s ease 0s;
 }
@@ -337,33 +333,31 @@ main .fullInform-text p {
   line-height: 22px;
 }
 /*section-3*/
-main .advantages{
- padding-bottom: 45px;
+main .advantages {
+  padding-bottom: 45px;
 }
 main .advantages h1 {
   font-size: 50px;
   text-transform: uppercase;
   color: #00b1e3;
   text-align: center;
-  
+}
+.advantages .col-xl-4 {
+  margin: 15px 0;
 }
 main .text-advantage {
-  width: 100%;
-  margin: 45px 0;
-  padding: 50px 50px;
-  opacity: 1;
-  border-radius: 4px;
+  min-height: 100%;
+  padding: 75px;
+  box-sizing: border-box;
   color: #fefefe;
   position: relative;
   text-align: center;
+  font-family: "OpenSans-Regular";
+  border: 1px solid #043f5c;
+  box-shadow: 0 0 2px rgba(255, 255, 255, 0.2),
+    inset 0 0 2px rgba(255, 255, 255, 0.2);
 }
 
-main .photo-advantage p {
-  position: absolute;
-  z-index: 1;
-  font-size: 23px;
-  font-family: "OpenSans-Regular";
-}
 .text-number {
   position: absolute;
   font-size: 165px;
@@ -378,51 +372,74 @@ main .photo-advantage p {
 main .text-advantage:hover > p > span {
   text-shadow: 0 0px 5px rgba(255, 255, 255, 0.1);
 }
+
+
 /*section-4*/
-main .feedback{
- padding-bottom: 45px;
+main .feedback {
+  padding-bottom: 45px;
 }
 
 .swiper-container {
- width: 80%;
- height: 100%;
-
+  width: 80%;
+  height: 100%;
 }
 
 main .feedback .feedback-title {
-
   font-size: 50px;
   text-align: center;
   text-transform: uppercase;
   color: #00b1e3;
-  
 }
-main .feedback .feedback-box{
-border: 1px solid transparent;
-padding: 50px 15px;
-height: 700px;
-background-color: var(--secondbg);
+main .feedback .feedback-box {
+  border: 1px solid transparent;
+  padding: 50px 15px;
+  height: 700px;
+  background-color: var(--secondbg);
 }
 
-main .feedback .feedback-img{
-  border-radius:  20px;
+main .feedback .feedback-img {
+  border-radius: 20px;
   box-shadow: 0 0px 4px rgba(0, 0, 0, 0.2);
 }
-main .feedback .name-abiturient{
+main .feedback .name-abiturient {
   padding: 35px 0;
   font-size: 30px;
-  color:var(--titlecolor);
+  color: var(--titlecolor);
   font-family: "OpenSans-SemiBold";
 }
-main .feedback .feedback-text{
- font-family: "Roboto-Regular";
- font-size: 18px;
- padding: 0 45px;
- color: var(--textcolor);
- text-align: justify;
- font-style: italic;
+main .feedback .feedback-text {
+  font-family: "Roboto-Regular";
+  font-size: 18px;
+  padding: 0 45px;
+  color: var(--textcolor);
+  text-align: justify;
+  font-style: italic;
+}
+/*section-5*/
+main .media{
+ padding-bottom: 75px;
+}
+main .media h1 {
+  color: #00b1e3;
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: "Roboto-Regular";
+}
+main .media p {
+  font-size: 18px;
+  font-family: "OpenSans-Regular";
+  text-align: justify;
+  padding: 0 15px;
+  padding-bottom: 45px;
 }
 
 
+/*------Footer--------------*/
 
- 
+.footer{
+padding: 75px 0;
+background-color: var(--secondbg);
+opacity: .9;
+}
+

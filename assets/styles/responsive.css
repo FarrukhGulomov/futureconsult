@@ -36,6 +36,29 @@
   .fullInform-text span {
     display: block;
   }
+
+  main .introduction {
+    min-height: 700px;
+    position: relative;
+  }
+
+  main .introduction::before {
+    content: "";
+    background: url("../img/bgmagistr-min.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: 36%;
+    background-size: cover;
+    opacity: 0.4;
+    position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        z-index: -1;
+  }
+
+
   /*Animations*/
   @keyframes moveInLeft {
     0% {
@@ -95,6 +118,9 @@
   .main-text {
     animation: showText 5.2s ease-out;
   }
+
+
+
   .fullInform-text .left {
     animation: moveInLeft 10s;
   }
@@ -139,7 +165,7 @@ background: rgba(255, 255, 255, 0.0);
     padding: 35px 0;
   }
   main .mobile-bg {
-    background: rgba(0, 0, 0, 0.9) url("../img/bgMobile-min.jpg") center/cover
+    background: url("../img/bgMobile-min.jpg") center/cover
       no-repeat;
     padding: 150px;
     opacity: 0.6;
@@ -159,6 +185,7 @@ background: rgba(255, 255, 255, 0.0);
     word-spacing: 0px;
     letter-spacing: 0px;
     font-family: "OpenSans-Light";
+    
   }
   .btn-content {
     text-align: center;
@@ -179,7 +206,7 @@ background: rgba(255, 255, 255, 0.0);
     padding: 35px 0;
   }
   main .mobile-bg {
-    background: #000000e6 url("../img/bgMobile.jpg") center/cover no-repeat;
+    background-image:  url("../img/bgMobile.jpg") center/cover no-repeat;
     padding: 150px;
     opacity: 0.6;
     border-bottom: 1px solid transparent;
