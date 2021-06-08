@@ -1,2 +1,1 @@
 # futureconsult
-Education web site
