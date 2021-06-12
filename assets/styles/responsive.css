@@ -167,7 +167,7 @@ background: rgba(255, 255, 255, 0.0);
   main .mobile-bg {
     background: url("../img/bgMobile-min.jpg") center/cover
       no-repeat;
-    padding: 150px;
+    padding: 150px 0;
     opacity: 0.6;
     border-bottom: 1px solid transparent;
   }
@@ -189,7 +189,6 @@ background: rgba(255, 255, 255, 0.0);
   }
   .btn-content {
     text-align: center;
-    margin-bottom: 30px;
   }
   main .full-introduction {
     padding: 25px 0;
@@ -207,7 +206,7 @@ background: rgba(255, 255, 255, 0.0);
   }
   main .mobile-bg {
     background-image:  url("../img/bgMobile.jpg") center/cover no-repeat;
-    padding: 150px;
+    padding: 150px 0;
     opacity: 0.6;
     border-bottom: 1px solid transparent;
   }
@@ -221,22 +220,126 @@ background: rgba(255, 255, 255, 0.0);
     text-align: center;
   }
   main .introduction .main-card h1 {
-    font-size: 20px;
+    font-size: 24px;
     line-height: 25px;
-    word-spacing: 1;
-    letter-spacing: 0.2px;
+    word-spacing: 0.5px;
+    
   }
   main .introduction .main-card p {
     font-size: 16px;
     padding-top: 5px;
     padding-bottom: 25px;
+
   }
   .btn-content {
     padding-bottom: 0px;
   }
   main .fullInform-text h1 {
-    font-size: 46px;
+    font-size: 24px;
   }
+/*section-2*/
+  main .edu-media iframe{
+    height: 300px;
+    padding:0 15px;
+    padding-bottom: 15px;
+  }
+
+  main .educational-videos h1{
+    font-size: 24px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    letter-spacing:2.5px
+
+  }
+  /*section-3*/
+  .full-introduction {
+  padding-bottom: 0px;
+  }
+  main .fullInform-logo{
+    display: none;
+  }
+  main .fullInform-text{
+    font-family: "OpenSans-Regular";
+    -webkit-box-shadow:none;
+	  box-shadow: none;
+    padding: 0;
+   height: 485px;
+  }
+  main .fullInform-photo{
+    height: 200px;
+  }
+  main .fullInform-text h1{
+    font-size: 24px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  main .fullInform-text h1 span{
+    margin: 0 10px;
+  }
+  main .fullInform-text p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  /*section-3*/
+main .advantages {
+	
+}
+main .advantages h1 {
+	font-size: 24px;
+	
+}
+main .text-advantage{
+  padding: 75px 50px;
+}
+/*section-4*/
+
+main .feedback {
+	padding-bottom: 25px;
+}
+.swiper-container{
+  width: 100%;
+}
+main .feedback .feedback-title{
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 2.5px;
+}
+main .feedback .feedback-box {
+  height: 400px;
+  padding: 25px;
+}
+main .feedback .feedback-img{
+  width: 250px;
+  height: 150px;
+}
+main .feedback .name-abiturient{
+  padding: 15px 0;
+	font-size: 20px;
+  letter-spacing: 2.5px;
+}
+main .feedback .feedback-text{
+font-size: 12px;
+padding: 0 15px;
+}
+
+/*section-5*/
+main .media{
+	padding-bottom: 15px;
+}
+main .media h1{
+  font-size: 24px;
+  letter-spacing: 1.2px;
+  font-family: "OpenSans-Regular";
+}
+main .media p {
+  font-size: 14px;
+  padding: 0 ;
+  padding-bottom: 10px;
+}
+main .media iframe{
+  height: 250px;
+}
 }
 
 /*  Small devices (landscape socials, 576px and up) */
