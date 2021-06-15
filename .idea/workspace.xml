@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45510a67-34fa-49d1-a869-152b56531399" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/js/mdb.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/ruflag.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/ukflag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/uzflag.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abiturients.html" beforeDir="false" afterPath="$PROJECT_DIR$/abiturients.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/5026563.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/background.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/fonts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -52,6 +54,7 @@
       <workItem from="1621958062198" duration="683000" />
       <workItem from="1622298966000" duration="876000" />
       <workItem from="1622352116476" duration="1176000" />
+      <workItem from="1623691356717" duration="2264000" />
     </task>
     <servers />
   </component>

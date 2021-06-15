@@ -35,14 +35,16 @@ ready(function () {
         navbarNav.classList.toggle("hide");
         closeBtn.classList.toggle("toggle");
         language.classList.toggle("hide");
+
     }
 
     hamburg.addEventListener("click", () => {
         toggle = true;
-        console.log("helloooo");
+
         if (toggle) {
             navbarFunc();
             toggle = false;
+
         }
     });
     closeBtn.addEventListener("click", () => {
@@ -51,38 +53,51 @@ ready(function () {
         }
     });
     //Multiple language //
-    var mainLang = document.querySelector(".main-language");
-    var langBox = document.querySelector(".second-languages");
-    var secondLanguage = document.querySelector(".lang_btn");
-    var is = false;
+    const multiLang = document.querySelector(".multiple-language");
+    const mainLang = document.querySelector(".main_lang");
+    const langBox = document.querySelector(".lang_Box");
+    const langTwo = document.querySelectorAll(".lang_two");
 
-    function languages() {
-        if (is) {
-            langsBox.classList.add("d-block");
-            setTimeout(function () {
-                langsBox.style.opacity = "1";
-            }, 100);
+    multiLang.addEventListener("mouseover", () => {
+
+        langBox.classList.add("active-lang_Box");
+
+
+
+        langTwo[0].addEventListener("click",()=>{
+           console.log(this.location.pathname);
+       })
+
+
+    });
+
+    multiLang.addEventListener("mouseleave", () => {
+
+        setTimeout(() => {
+
+            langBox.classList.remove("active-lang_Box");
+        }, 300);
+
+
+    });
+
+
+    const scrollTop = document.querySelector(".scrolltop");
+
+
+    window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 100) {
+            scrollTop.classList.add("active-btn");
+            navbar.classList.add("active-navbar");
         } else {
-            langsBox.classList.remove("d-block");
+            scrollTop.classList.remove("active-btn");
+            navbar.classList.remove("active-navbar");
+
         }
-    }
 
-    mainLang.addEventListener("mouseover", () => {
-        is = true;
-        languages();
-        is = false;
-    });
-
-    langBox.addEventListener("mouseleave", () => {
-        languages();
-    });
-
-  
+    })
 
 
-   
-
-   
 });
 
 
