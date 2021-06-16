@@ -63,10 +63,13 @@ ready(function () {
         langBox.classList.add("active-lang_Box");
 
 
+     langTwo.forEach(value => {
+       value.addEventListener("click",()=>{
 
-        langTwo[0].addEventListener("click",()=>{
-           console.log(this.location.pathname);
-       })
+               
+        })
+
+     });
 
 
     });
