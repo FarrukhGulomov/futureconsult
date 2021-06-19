@@ -121,7 +121,7 @@ ul {
 /* -----Scroll Top---------- */
 .scrolltop {
   position: fixed;
-  right: 75px;
+  right: 45px;
   bottom: 35px;
   z-index: 11;
   opacity: 0;
@@ -255,6 +255,15 @@ header .navbar .navbar-nav li a {
 .multiple-language {
   position: relative;
   transition:all .5s ease;
+}
+.multiple-language img{
+  opacity: 1;
+  transition: .5s;
+}
+.multiple-language a:hover img{
+ 
+  transition: .5s;
+  filter:contrast(150%);
 }
 .main_lang {
   cursor: pointer;
@@ -496,7 +505,6 @@ main .fullInform-photo {
   background: #00b1e3 url("../img/office.jpg") center/cover no-repeat;
 }
 main .fullInform-text {
-  font-family: "Roboto-Regular";
   padding: 0 25px;
   border: 1px solid transparent;
 }
@@ -522,6 +530,7 @@ main .fullInform-photo:hover {
 }
 main .fullInform-text h1 {
   font-size: 50px;
+  font-family: "Roboto-Regular";
   line-height: 30px;
   text-transform: uppercase;
   display: -webkit-box;
@@ -534,10 +543,9 @@ main .fullInform-text h1 {
 }
 main .fullInform-text p {
   font-size: 16px;
-  color: #fff;
   text-align: justify;
   text-indent: 25px;
-  line-height: 22px;
+  line-height: 25px;
 }
 /*section-3*/
 main .advantages {
@@ -553,11 +561,12 @@ main .advantages h1 {
   margin: 15px 0;
 }
 main .text-advantage {
+  font-size: 16px;
   min-height: 100%;
   padding: 75px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  color: #fefefe;
+  
   position: relative;
   text-align: center;
   font-family: "OpenSans-Regular";
@@ -611,14 +620,15 @@ main .feedback .feedback-img {
   box-shadow: 0 0px 4px rgba(0, 0, 0, 0.2);
 }
 main .feedback .name-abiturient {
-  padding: 35px 0;
+  padding: 25px 0;
   font-size: 30px;
   color: var(--titlecolor);
   font-family: "OpenSans-SemiBold";
 }
 main .feedback .feedback-text {
   font-family: "Roboto-Regular";
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 25px;
   padding: 0 45px;
   color: var(--textcolor);
   text-align: justify;
@@ -636,7 +646,8 @@ main .media h1 {
   font-family: "Roboto-Regular";
 }
 main .media p {
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 25px;
   font-family: "OpenSans-Regular";
   text-align: justify;
   padding: 0 15px;
@@ -648,16 +659,30 @@ main .media p {
   background-color: #000020;
   opacity: 0.9;
   font-family: "OpenSans-SemiBold";
+  border-top:2px solid #000020;
 }
 .footer ul {
   text-align: center;
   padding-bottom: 25px;
+  
 }
 .footer ul li {
   display: inline;
+  
+   position: relative;
 }
 .footer ul li a {
-  padding: 0 8px;
+padding: 0 8px;
+
+}
+
+.footer ul li img{
+  opacity: .7;
+  transition: .5s;
+}
+.footer ul li a:hover img{
+  opacity: 1;
+  transition: .5s;
 }
 .footer-top {
   border-bottom: 3px solid var(--footer-top-line-color);
@@ -671,7 +696,7 @@ main .media p {
 .footer-top .phone-numbers a {
   display: block;
   padding: 10px 0;
-  font-size: 12px;
+ 
 }
 .footer-top .phone-numbers a,
 .footer-top p,
@@ -709,9 +734,15 @@ main .media p {
   transition: 0.5s;
   font-weight: 500;
 }
+
+.footer-top .footer-top-address{
+  text-align:justify;
+}
 .footer-top .footer-top-address i {
-  font-size: 16px;
+  font-size: 20px;
   vertical-align: middle;
+  margin-right:5px;
+ 
 }
 .footer-bottom {
   padding-top: 25px;
@@ -719,3 +750,5 @@ main .media p {
 .footer-bottom span {
   display: block;
 }
+
+

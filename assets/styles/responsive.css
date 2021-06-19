@@ -341,6 +341,30 @@ main .media p {
 main .media iframe{
   height: 250px;
 }
+/*Footer*/
+
+.footer ul {
+  text-align: center;
+  padding-bottom: 25px;
+}
+.footer ul li a {
+  padding: 0 2px;
+}
+
+.footer-top {
+  margin: 0;
+}
+.footer-top .phone-numbers a {
+  padding-bottom: 5px; 
+}
+.footer-top p {
+  letter-spacing: 1px;
+  padding:25px 0 5px;
+}
+.footer-top .footer-top-address {
+  line-height: 20px;
+}
+
 }
 
 /*  Small devices (landscape socials, 576px and up) */
