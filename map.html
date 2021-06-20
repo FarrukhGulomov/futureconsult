@@ -1,44 +1,169 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <style>
-      /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-#map {
-  height: 100%;
-}
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FUTURE CONSULTING</title>
+    <link rel="shortcut icon" href="assets/img/brand.png" type="image/png" />
+    <link rel="stylesheet" href="assets/styles/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="assets/styles/normalize.css" />
 
-/* Optional: Makes the sample page fill the window. */
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-    </style>
-    <title>Simple Map</title>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <link rel="stylesheet" type="text/css" href="./style.css" />
-    <script src="./index.js"></script>
+    <!-- <link rel="stylesheet" href="assets/fontawesome/css/all.min.css"> -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="assets/styles/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="assets/styles/main.css" />
+    <link rel="stylesheet" href="assets/styles/responsive.css" />
+
+    <!-- <script src="//code-eu1.jivosite.com/widget/zFZcfgHlRu" async></script> -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-199384059-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-199384059-1');
+</script>
   </head>
+
   <body>
-    <div id="map"></div>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-XXXX"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
-    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0UAEt7Qk0631CGWUi8rJBfl-CLP55JkQ&callback=initMap&libraries=&v=weekly"
-      async
-    ></script>
-    <script>
-      let map;
+    <!--------Loader-------->
+    <div class="loader">
+      <img src="assets/img/logo3.png" width="75" height="75" alt="logo" />
+    </div>
+    <!-------/Loader-------->
 
-function initMap() {
-  map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: -34.397, lng: 150.644 },
-    zoom: 8,
-  });
-}
-    </script>
+
+    <!----- Main content---->
+    <main>
+     <section>
+      <div class="container mt-5 pt-5" style="height: 75vh;">
+        <div class="row ">
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+            <h1>Как нас найти ?</h1>
+            <p class="pb-3">Future Consulting Company</p>
+            <p>д.5., ул.К.Муртазаева., г.Бухара, Узбекистан</p>
+          </div>
+          <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12">
+            <!-- <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A20e6d94702fa02f5563bb95f3baa25e763980e62cad29c362b2b40bd32f8c1b3&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script> -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12269.263298446222!2d64.4280117!3d39.7550169!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4c7d3710085a46f2!2sFUTURE%20CONSULTING%20COMPANY!5e0!3m2!1suz!2s!4v1624181907988!5m2!1suz!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+          </div>
+     </section>
+     
+      
+
+      
+      <!----/ Main content---->
+    </main>
+    
+    <!----Footer content---->
+    <footer class="footer">
+      
+      <div class="container">
+        <div class="footer-top">
+         
+          <div class="row phone-numbers">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
+              <p>Buxoro</p>
+              <a href="https://t.me/Future_Sanjarbek">+998 (99) 058-33-08</a>
+              <a href="https://t.me/future_umida">+998 (99) 944-33-09</a>
+              <a href="map.html" target="_blank"
+                class="footer-top-address" > <i class="fas fa-map-marker-alt"></i> <span>5 uy., Q.Murtazayev k. <br />
+                Buxoro sh. Buxoro v </span></a>
+                
+            </div>
+
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
+              <p>Navoiy</p>
+              <a href="https://t.me/Future_Sardor">+998 (99) 237-33-04</a>
+              <a href="https://t.me/Future_Diyora">+998 (99) 238-33-04</a>
+              <a href="map.html"
+              class="footer-top-address"> <i class="fas fa-map-marker-alt"></i> 5 uy., Q.Murtazayev k. <br />
+                Buxoro sh. Buxoro v</a
+              >
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
+              <p>Samarqand</p>
+              <a href="https://t.me/future_Sanat">+998 (99) 770-33-04</a>
+              <a href="https://t.me/future_umida">+998 (99) 776-33-04</a>
+              <a href="map.html"
+              class="footer-top-address"> <i class="fas fa-map-marker-alt"></i> 5 uy., Q.Murtazayev k. <br />
+                Buxoro sh. Buxoro v</a
+              >
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
+              <p>Qashqadaryo</p>
+              <a href="https://t.me/Future_Turakul">+998 (99) 204-33-04</a>
+              <a href="https://t.me/Future_Nazokat">+998 (99) 735-33-04</a>
+              <a href="map.html"
+              class="footer-top-address"><i class="fas fa-map-marker-alt"></i>  5 uy., Q.Murtazayev k. <br />
+                Buxoro sh. Buxoro v</a
+              >
+            </div>
+          </div>
+          <div class="row social-media">
+            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+              <a href="mailto:info@futureconsult.uz" class="email" >info@futureconsult.uz</a>
+              <ul >
+                <li>
+                  <a href="https://www.facebook.com/future_consult-101798318731048" target="_blank"><img src="assets/img/facebook.png" width="35" height="35" alt="" srcset=""></a>
+                </li>
+                <li>
+                  <a href="" target="_blank"><img src="assets/img/instagram.png" width="35" height="35" alt="" srcset=""></a>
+                </li>
+                <li> 
+                  <a href="" target="_blank"><img src="assets/img/telegram.png" width="35"   height="35" alt=""></a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/channel/UCrzWX1umT5hbaQ2TeLYQNgQ" target="_blank"><img src="assets/img/youtube.png" style="border-radius: 4px;" width="35" height="35" alt=""></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          
+        </div>
+        <div class="footer-bottom">
+          <span
+            >Copyright &copy 2021.All rights reserved. Developed by
+            <a href="https://www.farrukh.uz" title="farrukh.uz"
+              >Farrukh Gulomov.</a
+            >
+            </span
+          >
+        </div>
+      </div>
+    </footer>
+    <!---/Footer content---->
+    
+    
+
+    
+    
+    <script src="assets/js/index.js"></script>
   </body>
 </html>
