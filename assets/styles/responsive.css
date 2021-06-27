@@ -60,6 +60,7 @@
         bottom: 0px;
         left: 0px;
         z-index: -1;
+        
   }
 
 
@@ -163,7 +164,7 @@ background: rgba(255, 255, 255, 0.0);
   }
   header .navbar .navbar-nav li a {
     font-size: 20px;
-    color: var(--titlecolor);
+    color: var(--secondbg);
   }
   header .navbar .navbar-nav li {
     padding: 35px 0;
@@ -197,10 +198,101 @@ background: rgba(255, 255, 255, 0.0);
   main .full-introduction {
     padding: 25px 0;
   }
-  main .fullInform-text h1 {
-    font-size: 56px;
-    line-height: 30px;
+  
+  /*section-2*/
+  main .edu-media iframe{
+    padding:0 15px;
+    padding-bottom: 15px;
   }
+
+  /*section-3*/
+  .full-introduction {
+  padding-bottom: 0px;
+  }
+ 
+ 
+  
+  /*section-3*/
+main .advantages h1 {
+	font-size: 24px;
+	
+}
+main .text-advantage{
+  padding: 75px 50px;
+}
+/*section-4*/
+
+main .feedback {
+	padding-bottom: 25px;
+}
+.swiper-container{
+  width: 100%;
+}
+main .feedback .feedback-title{
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 2.5px;
+}
+main .feedback .feedback-box {
+  height: 400px;
+  padding: 25px;
+}
+main .feedback .feedback-img{
+  width: 250px;
+  height: 150px;
+}
+main .feedback .name-abiturient{
+  padding: 15px 0;
+	font-size: 20px;
+  letter-spacing: 2.5px;
+}
+main .feedback .feedback-text{
+font-size: 12px;
+padding: 0 15px;
+}
+
+/*section-5*/
+main .media{
+	padding-bottom: 15px;
+}
+main .media h1{
+  font-size: 24px;
+  letter-spacing: 1.2px;
+  font-family: "OpenSans-Regular";
+}
+main .media p {
+  font-size: 14px;
+  padding: 0 ;
+  padding-bottom: 10px;
+}
+main .media iframe{
+  height: 250px;
+}
+/*Footer*/
+
+.footer ul {
+  text-align: center;
+  padding-bottom: 25px;
+}
+.footer ul li a {
+  padding: 0 2px;
+}
+
+.footer-top {
+  margin: 0;
+}
+.footer-top .phone-numbers a {
+  padding-bottom: 5px; 
+}
+.footer-top p {
+  letter-spacing: 1px;
+  padding:25px 0 5px;
+}
+.footer-top .footer-top-address {
+  line-height: 20px;
+}
+
+
 }
 
 /*  Extra small devices (portrait socials, less than 576px) */
@@ -296,7 +388,7 @@ main .text-advantage{
 /*section-4*/
 
 main .feedback {
-	padding-bottom: 25px;
+	height: 100%;
 }
 .swiper-container{
   width: 100%;
@@ -307,8 +399,8 @@ main .feedback .feedback-title{
   letter-spacing: 2.5px;
 }
 main .feedback .feedback-box {
-  height: 400px;
-  padding: 25px;
+  height: 450px;
+  padding-top: 25px;
 }
 main .feedback .feedback-img{
   width: 250px;
@@ -320,8 +412,9 @@ main .feedback .name-abiturient{
   letter-spacing: 2.5px;
 }
 main .feedback .feedback-text{
-font-size: 12px;
+font-size: 14px;
 padding: 0 15px;
+line-height: 16px;
 }
 
 /*section-5*/
@@ -363,6 +456,9 @@ main .media iframe{
 }
 .footer-top .footer-top-address {
   line-height: 20px;
+}
+.footer-bottom span{
+ line-height: 24px;
 }
 
 }

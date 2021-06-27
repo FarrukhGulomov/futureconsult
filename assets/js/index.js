@@ -24,6 +24,7 @@ ready(function () {
     var language = document.querySelector(".multiple-language");
     var logo = document.querySelector(".navbar-brand");
     var navbarNav = document.querySelector(".navbar-nav");
+    var link = navbarNav.querySelectorAll('li a');
     var closeBtn = document.querySelector(".closeBtn");
     var toggle = false;
 
@@ -44,12 +45,16 @@ ready(function () {
         if (toggle) {
             navbarFunc();
             toggle = false;
+            scrollTop.classList.remove("active-btn");
+            navbar.classList.toggle('mainbg');
+            link.style.color = "white";
 
         }
     });
     closeBtn.addEventListener("click", () => {
         if (!toggle) {
             navbarFunc();
+            navbar.classList.toggle('mainbg');
         }
     });
     //Multiple language //
@@ -63,13 +68,12 @@ ready(function () {
         langBox.classList.add("active-lang_Box");
 
 
-     langTwo.forEach(value => {
-       value.addEventListener("click",()=>{
+        langTwo.forEach(value => {
+            value.addEventListener("click", () => {
 
-               
-        })
+            })
 
-     });
+        });
 
 
     });

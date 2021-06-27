@@ -1,16 +1,20 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 @import url("fonts.css");
-/* https://esgroup.uz/https://eurostudy.uz/*/
-/*1.Variables (13-21 rows)2.Global Settings(22-36 rows)3.Loader4.Header5.Main6.Footer#043f5c#181926*/
+/*
+1.Variables (9-21rows)
+2.Global Settings(22-47r)
+3.Loader (48-120r)
+4.Scroll Top(122-200r)
+5.Header (201-376r)
+6.Main
+  1.Main Page
+  2.About Us
+  3.Universities
+  4.News
+  5.Contact
+7.Footer
 /* --------Variables-------- */
 :root {
-  --mainbg: #043f5c;
+  --main-color-1: #043f5c;
   --secondbg: #e5e5e5;
   --linkcolor: #043f5c;
   --textcolor: #8f8f8f;
@@ -30,12 +34,15 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 body {
   font-size: 14px;
   background-color: #043f5c;
   color: var(--textcolor);
 }
 html {
+  overflow: hidden;
+  overflow-y: auto;
   scroll-behavior: smooth;
   font-family: "OpenSans-Regular";
 }
@@ -236,7 +243,11 @@ header a {
   transition: all 0.3s ease 0s;
   z-index: 10;
 }
-
+.mainbg{
+  background-color: rgba(4, 63, 92,.95);
+  transition: .8s;
+  
+}
 header .navbar .navbar-brand img {
   width: 175px;
   height: 46px;
@@ -370,9 +381,11 @@ header #menuToggle .openBtn:hover {
   transform: translate(20%, 0%);
 }
 /* -----Main--------------- */
-main {
-  overflow-x: hidden;
-}
+
+/* main {
+  overflow: hidden;
+} */
+/* -----Main--Page------- */
 /*section-1*/
 main .introduction {
   min-height: 700px;
@@ -497,7 +510,7 @@ main .fullInform-logo {
   font-size: 100px;
   line-height: 50px;
   text-transform: uppercase;
-  color: var(--mainbg);
+  color: var(--main-color-1);
   text-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
   text-align: center;
 }
@@ -542,7 +555,6 @@ main .fullInform-text h1 {
   color: #00b1e3;
 }
 main .fullInform-text p {
-  font-size: 16px;
   text-align: justify;
   text-indent: 25px;
   line-height: 25px;
@@ -653,6 +665,65 @@ main .media p {
   padding: 0 15px;
   padding-bottom: 45px;
 }
+/* -----About Us-------------- */
+main .about-us-bg{
+  
+  padding: 100px 0;
+ text-align: center;
+  position: relative;
+
+}
+main .about-us-bg::before{
+  content: "";
+  background:  url('../img/bg-about-us.jpeg')  center/cover no-repeat;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: .2;
+  z-index: 0;
+}
+main .about-us-bg h1,main .about-us-bg p{
+  color:#00b1e3;
+  text-transform: uppercase;
+  font-family: "OpenSans-SemiBold";
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  pointer-events: none;
+}
+main .about-us-bg h1{
+  margin: 0;
+  font-size: 40px;
+  line-height: 100px;
+  font-style: italic;
+}
+main .about-us-bg p{
+  font-size: 36px;
+}
+
+main .about-us-inform{
+  padding: 50px 0 200px;
+}
+
+main .inform-img{
+  background: url('../img/aboutus-bg-img3-min.jpeg') center/cover no-repeat;
+  padding: 220px 0;
+  border-radius: 50px;
+}
+main .about-us-inform h1{
+  font-family: "OpenSans-Bold";
+}
+main .about-us-inform p{
+  padding-top: 15px;
+  line-height: 24px;
+}
+/* -----Universities--------- */
+
+/* -----News---------------- */
+
+/* -----Contact------------ */
+
 /*------Footer--------------*/
 .footer {
   padding: 45px 0 75px;
@@ -742,6 +813,7 @@ padding: 0 8px;
   font-size: 20px;
   vertical-align: middle;
   margin-right:5px;
+  padding-top: 7px;
  
 }
 .footer-bottom {
