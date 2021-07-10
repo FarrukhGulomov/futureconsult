@@ -28,7 +28,7 @@ ready(function () {
     var closeBtn = document.querySelector(".closeBtn");
     var toggle = false;
 
-    // function
+    // function Toggle menu
     function navbarFunc() {
         logo.classList.toggle("hide");
         hamburg.classList.toggle("d-none");
@@ -39,7 +39,8 @@ ready(function () {
 
     }
 
-    hamburg.addEventListener("click", () => {
+    hamburg.addEventListener("click", (e) => {
+        e.preventDefault();
         toggle = true;
 
         if (toggle) {
@@ -51,7 +52,8 @@ ready(function () {
 
         }
     });
-    closeBtn.addEventListener("click", () => {
+    closeBtn.addEventListener("click", (e) => {
+        e.preventDefault(); 
         if (!toggle) {
             navbarFunc();
             navbar.classList.toggle('mainbg');
@@ -71,7 +73,7 @@ ready(function () {
         langTwo.forEach(value => {
             value.addEventListener("click", () => {
 
-            })
+            });
 
         });
 
@@ -102,7 +104,9 @@ ready(function () {
 
         }
 
-    })
+    });
+
+    
 
 
 });

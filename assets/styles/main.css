@@ -273,12 +273,7 @@ header a {
   z-index: 10;
 }
 
-.mainbg {
-  background-color: rgba(29, 32, 49, 0.95);
-  -webkit-transition: 0.8s;
-  -o-transition: 0.8s;
-  transition: 0.8s;
-}
+
 
 header .navbar .navbar-brand img {
   width: 175px;
@@ -327,9 +322,9 @@ header .navbar .navbar-nav li a {
 .main_lang:hover + .lang_Box {
   display: block;
   opacity: 1;
-  -webkit-transform: all 0.5s ease;
-      -ms-transform: all 0.5s ease;
-          transform: all 0.5s ease;
+  -webkit-transform: all .5s ease;
+      -ms-transform: all .5s ease;
+          transform: all .5s ease;
 }
 
 .lang_Box {
@@ -385,6 +380,7 @@ header .navbar .navbar-nav li a:active {
 
 header .navbar ul li a {
   font-family: "OpenSans-SemiBold";
+  transition: .5s;
 }
 
 header #menuToggle .openBtn {
@@ -606,7 +602,6 @@ main .fullInform-text {
 main .fullInform-photo,
 main .fullInform-text {
   height: 500px;
- 
   -webkit-box-shadow: 0 0 2px rgba(255, 255, 255, 0.2),
     inset 0 0 2px rgba(255, 255, 255, 0.2);
   box-shadow: 0 0 2px rgba(255, 255, 255, 0.2)
@@ -615,7 +610,6 @@ main .fullInform-text {
   -webkit-transition: all 0.5s ease 0s;
   -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
-  
 }
 
 main .fullInform-photo:hover {
