@@ -3,6 +3,8 @@
 * PostCSS: v7.0.29,
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
+
+ Antaliyadagi Turizm akademiyasi Universiteti
 */
 
 
@@ -24,6 +26,7 @@
 /* --------Variables-------- */
 :root {
   --main-color-1: #043f5c;
+  --main-color-2:#002547;
   --secondbg: #e5e5e5;
   --linkcolor: #043f5c;
   --textcolor: #8f8f8f;
@@ -290,7 +293,7 @@ header .navbar .navbar-nav li {
 
 header .navbar .navbar-nav li a {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .multiple-language {
@@ -373,11 +376,13 @@ header .navbar .social a:hover > i {
 }
 
 header .navbar .social a > i,
-header .navbar .navbar-nav li a,
-header .navbar .navbar-nav li a:active {
+header .navbar .navbar-nav li a{
   color: var(--linkcolor);
+  transition: .5s;
 }
-
+header .navbar .navbar-nav li:hover a,header .navbar .navbar-nav .active-link-color{
+  color: #00b1e3;
+}
 header .navbar ul li a {
   font-family: "OpenSans-SemiBold";
   transition: .5s;
@@ -476,16 +481,10 @@ main .introduction .main-card p {
   padding-bottom: 20px;
 }
 
-.btn {
+.main-btn {
   padding: 15px 45px 15px 40px;
   text-transform: uppercase;
   border-radius: 100px;
-  color: #ffffff;
-  -webkit-animation: moveInBottom 3.5s ease;
-  animation: moveInBottom 3.5s ease;
-}
-
-main .btn-content a {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -496,7 +495,12 @@ main .btn-content a {
   -ms-flex-align: center;
   align-items: center;
   letter-spacing: 1.2px;
+}
+
+main .btn-content a {
   position: relative;
+  -webkit-animation: moveInBottom 3.5s ease;
+  animation: moveInBottom 3.5s ease;
   -webkit-transition: -webkit-transform 0.2s ease,
     -webkit-box-shadow 0.3s ease-out;
   transition: -webkit-transform 0.2s ease, -webkit-box-shadow 0.3s ease-out;
@@ -508,11 +512,11 @@ main .btn-content a {
     -webkit-transform 0.2s ease, -webkit-box-shadow 0.3s ease-out;
 }
 
-.main-btn-info .rightIcon {
+ .rightIcon {
   margin-right: 10px;
 }
 
-.btn:hover {
+.btn-:hover {
   -webkit-transform: translateY(-3px);
   -ms-transform: translateY(-3px);
   transform: translateY(-3px);
@@ -763,7 +767,7 @@ main .media p {
   padding-bottom: 45px;
 }
 
-/* -----About Us-------------- */
+/* -----About Us page---------- */
 main .about-us-bg {
   padding: 75px 0;
   text-align: center;
@@ -854,30 +858,30 @@ main .about-us-inform .target-box p {
   line-height: 26px;
 }
 
-main .about-us-inform .team-card {
-  -webkit-box-shadow: 0 0px 5px rgb(255, 255, 255, 0.2);
-          box-shadow: 0 0px 5px rgb(255, 255, 255, 0.2);
+ .team-card {
+  -webkit-box-shadow: 0 0px 5px rgb(255, 255, 255, .2);
+          box-shadow: 0 0px 5px rgb(255, 255, 255, .2);
   margin-bottom: 45px;
   background-color: #cfcfcf;
   border-radius: 4px;
   padding-bottom: 25px;
   transition: .5s;
 }
-main .about-us-inform .team-card:hover{
+ .team-card:hover{
 box-shadow: none;
 background-color: #fefefe;
 }
-main .about-us-inform .team-card-img {
+ .team-card-img {
   border-top-right-radius: 4px;
   border-top-left-radius: 4px;
 }
 
-main .about-us-inform .team-card-name {
+ .team-card-name {
  font-size: 18px;
  padding: 10px 0 10px 15px;
  color:#4f4f4f;
 }
-main .about-us-inform .team-card-text{
+ .team-card-text{
  padding-left: 15px; 
  color:#5e5e5e;
 }
@@ -899,6 +903,93 @@ opacity: 1;
 }
 
 /* -----Universities--------- */
+
+main .universities {
+  padding: 45px 0;
+}
+main .universities ul{
+  padding-top: 15px;
+  padding-bottom: 35px;
+}
+main .universities ul li{
+  display: inline;
+  padding: 8px 20px;
+  margin-right:5px ;
+  pointer-events:stroke;
+  letter-spacing: 0.5px;
+
+}
+.list{
+  background-color: #eeeeee;
+  border-radius: 2px;
+  color: #000020;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .5s;
+}
+main .universities ul li:not(:first-child){
+  margin-left:5px ;
+}
+.active-state, 
+.list:hover{
+  background-color: #00b1e3;
+  color:#fefefe;
+  font-weight: bold;
+  transition: .5s;
+}
+main .card-university{
+  position: relative;
+  cursor:pointer;
+  text-align: center;
+  opacity: .5;
+  transition: .7s;
+  height: 410px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.5);
+}
+main .card-university .team-card-name{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 19px;
+}
+main .card-university .team-card-text{
+  line-height: 30px;
+  font-size: 15px;
+
+}
+main .card-university .team-card-img{
+  width: 100%;
+  min-height: 300px;
+}
+main .card-university:hover{
+  opacity: 1;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transition: .7s;
+}
+
+.card-btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  outline: none;
+  border-color: transparent;
+  cursor:pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,.5);
+  z-index: -99999;
+  opacity: 0;
+  transition: .1s ;
+  }
+main .card-university:hover>.card-btn{
+  z-index: 9;
+  opacity: 1;
+  transition: .1s ;
+}
+.card-btn:active {
+  top: 49%;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transition: .5s;
+}
 
 /* -----News---------------- */
 

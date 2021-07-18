@@ -2,6 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45510a67-34fa-49d1-a869-152b56531399" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/img/Plexanov/plexanov1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Plexanov/plexanov2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Plexanov/plexanov3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Plexanov/plexanov4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Plexanov/plexanov5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Plexanov/plexanov6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Plexanov/plexanov7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/kazan/kazan1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/kazan/kazan2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/kazan/kazan3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/kazan/kazan4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/turk/arel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/turk/stanbul.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/turk/turism.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/turk/turism.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/tyumen/tyumen1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/warsaw/warsaw1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/warsaw/warsaw2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/warsaw/warsaw3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/warsaw/warsaw4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/index.js" afterDir="false" />
@@ -18,6 +38,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1sHB84SFeiExdDIRTLargjnR6YF" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -32,9 +58,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="Shelf.Project.Settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\User\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="45510a67-34fa-49d1-a869-152b56531399" name="Default Changelist" comment="" />
@@ -66,6 +96,13 @@
       <workItem from="1625444741686" duration="639000" />
       <workItem from="1625790989678" duration="664000" />
       <workItem from="1625875450646" duration="1559000" />
+      <workItem from="1625923089613" duration="1672000" />
+      <workItem from="1626049761179" duration="1194000" />
+      <workItem from="1626221971518" duration="4367000" />
+      <workItem from="1626394188685" duration="3310000" />
+      <workItem from="1626450279082" duration="4705000" />
+      <workItem from="1626477944321" duration="4018000" />
+      <workItem from="1626566935232" duration="12902000" />
     </task>
     <servers />
   </component>
@@ -74,5 +111,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="221" y="61" key="SettingsEditor" timestamp="1626394468854">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="221" y="61" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1626394468854" />
+    <state x="383" y="181" key="search.everywhere.popup" timestamp="1626223825069">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="383" y="181" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1626223825069" />
   </component>
 </project>

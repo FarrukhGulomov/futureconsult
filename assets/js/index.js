@@ -24,7 +24,7 @@ ready(function () {
     var language = document.querySelector(".multiple-language");
     var logo = document.querySelector(".navbar-brand");
     var navbarNav = document.querySelector(".navbar-nav");
-    var link = navbarNav.querySelectorAll('li a');
+    var link = navbarNav.querySelectorAll("li a");
     var closeBtn = document.querySelector(".closeBtn");
     var toggle = false;
 
@@ -36,7 +36,6 @@ ready(function () {
         navbarNav.classList.toggle("hide");
         closeBtn.classList.toggle("toggle");
         language.classList.toggle("hide");
-
     }
 
     hamburg.addEventListener("click", (e) => {
@@ -47,16 +46,15 @@ ready(function () {
             navbarFunc();
             toggle = false;
             scrollTop.classList.remove("active-btn");
-            navbar.classList.toggle('mainbg');
-            link.style.color = "white";
-
+            navbar.classList.toggle("mainbg");
+            link.style.color = "#fefefe";
         }
     });
     closeBtn.addEventListener("click", (e) => {
-        e.preventDefault(); 
+        e.preventDefault();
         if (!toggle) {
             navbarFunc();
-            navbar.classList.toggle('mainbg');
+            navbar.classList.toggle("mainbg");
         }
     });
     //Multiple language //
@@ -66,50 +64,46 @@ ready(function () {
     const langTwo = document.querySelectorAll(".lang_two");
 
     multiLang.addEventListener("mouseover", () => {
-
         langBox.classList.add("active-lang_Box");
 
-
-        langTwo.forEach(value => {
-            value.addEventListener("click", () => {
-
-            });
-
+        langTwo.forEach((value) => {
+            value.addEventListener("click", () => {});
         });
-
-
     });
 
     multiLang.addEventListener("mouseleave", () => {
-
         setTimeout(() => {
-
             langBox.classList.remove("active-lang_Box");
         }, 300);
-
-
     });
-
 
     const scrollTop = document.querySelector(".scrolltop");
 
-
-    window.addEventListener('scroll', () => {
+    window.addEventListener("scroll", () => {
         if (window.pageYOffset > 100) {
             scrollTop.classList.add("active-btn");
             navbar.classList.add("active-navbar");
         } else {
             scrollTop.classList.remove("active-btn");
             navbar.classList.remove("active-navbar");
-
         }
-
     });
 
-    
-
-
+    const filter = document.querySelector(".filter");
+    var box = document.querySelectorAll(".box");
+    var lists = document.querySelectorAll(".list");
+    filter.addEventListener("click", (event) => {
+        var listState = event.target.getAttribute("data-filter");
+        if (event.target.tagName == "LI") {
+            box.forEach((card) => {
+                card.classList.remove("d-none");
+                if (!card.classList.contains(listState) && listState != "All")
+                    card.classList.add("d-none");
+                lists.forEach((list) => {
+                    list.classList.remove("active-state");
+                });
+                event.target.classList.toggle("active-state");
+            });
+        }
+    });
 });
-
-
-
