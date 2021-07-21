@@ -63,24 +63,32 @@
   }
 
   main .introduction {
-    min-height: 700px;
+    min-height: 800px;
     position: relative;
   }
 
-  main .introduction::before {
+  main .introduction::before,
+  main .introduction::after {
     content: "";
     background: url("../img/bgmagistr-min.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-position-y: 36%;
+    background-position-y: 18%;
     background-size: cover;
-    opacity: 0.75;
     position: absolute;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
     z-index: -1;
+  }
+  main .introduction::before{
+    opacity: 0.75;
+    clip-path: circle(64% at 50% 2%);
+  }
+  main .introduction::after {
+    
+    opacity:.1;
   }
 
   /*Animations*/
@@ -226,21 +234,30 @@
   .hide {
     opacity: 0;
     display: none;
-    -webkit-transition: 0.5s;
-    -o-transition: .5s;
-    transition: .5s;
+    transition: all .5s;
   }
   .social {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
+  .social a{
+    display: none;
+  }
   .slideDown {
-    height: 100vh;
-    -webkit-transition: 0.1s;
-    -o-transition: 0.1s;
-    transition:  0.1s ;
-    
+    animation: navbar .5s forwards;
+  }
+
+  @keyframes navbar {
+    from{
+      height: 100vh;
+      clip-path: circle(20% at 100% 0);
+    }
+    to{
+      height: 100vh;
+      clip-path: circle(141.4% at 100% 0);
+    }
+
   }
   /* ::-webkit-scrollbar {
 width: 0px;
@@ -266,20 +283,16 @@ background: rgba(255, 255, 255, 0.0);
     transition: .5s ;
 
   }
-  header .navbar .navbar-nav li:hover a{
+  header .navbar .navbar-nav li a:hover {
     color: #00b1e3;
-  }
-  header .navbar .navbar-nav li:hover{
-    background-color: rgba(255,255,255,.9);
-    cursor: pointer;
-    border-radius: 4px;
   }
   
   .mainbg {
-    background-color: rgba(29, 32, 49, 0.95);
+    background-color: rgba(29, 32, 49, .98);
     -webkit-transition: 0.8s;
     -o-transition: 0.8s;
     transition: 0.8s;
+
   }
 
   main .mobile-bg {
@@ -607,17 +620,19 @@ background: rgba(255, 255, 255, 0.0);
     letter-spacing: 3.6px;
   }
   main .introduction .main-card p {
-    font-size: 24px;
+    font-size: 17px;
     padding-top: 10px;
     padding-bottom: 45px;
-    word-spacing: 1px;
-    letter-spacing: 1px;
-    line-height: 36px;
+    letter-spacing: 0px;
+    line-height: 35px;
   }
   .btn-content {
     padding-bottom: 0px;
   }
 }
+
+
+
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {

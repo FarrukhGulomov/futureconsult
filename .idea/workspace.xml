@@ -2,32 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45510a67-34fa-49d1-a869-152b56531399" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/Plexanov/plexanov1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Plexanov/plexanov2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Plexanov/plexanov3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Plexanov/plexanov4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Plexanov/plexanov5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Plexanov/plexanov6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Plexanov/plexanov7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/kazan/kazan1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/kazan/kazan2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/kazan/kazan3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/kazan/kazan4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/turk/arel.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/turk/stanbul.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/turk/turism.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/turk/turism.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/tyumen/tyumen1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/warsaw/warsaw1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/warsaw/warsaw2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/warsaw/warsaw3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/warsaw/warsaw4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/tadjik/xodjand1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transition.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/universities.html" beforeDir="false" afterPath="$PROJECT_DIR$/universities.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +82,11 @@
       <workItem from="1626394188685" duration="3310000" />
       <workItem from="1626450279082" duration="4705000" />
       <workItem from="1626477944321" duration="4018000" />
-      <workItem from="1626566935232" duration="12902000" />
+      <workItem from="1626566935232" duration="13381000" />
+      <workItem from="1626845134611" duration="2830000" />
+      <workItem from="1626852810118" duration="789000" />
+      <workItem from="1626858079558" duration="609000" />
+      <workItem from="1626870010160" duration="11596000" />
     </task>
     <servers />
   </component>
@@ -113,10 +97,22 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="100" y="100" width="1240" height="660" key="DiffContextDialog" timestamp="1626847192434">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="100" y="100" width="1240" height="660" key="DiffContextDialog/0.0.1440.860@0.0.1440.860" timestamp="1626847192434" />
     <state x="221" y="61" key="SettingsEditor" timestamp="1626394468854">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="221" y="61" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1626394468854" />
+    <state x="514" y="126" key="VCS.ChangeListViewerDialog" timestamp="1626846983249">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="514" y="126" key="VCS.ChangeListViewerDialog/0.0.1440.860@0.0.1440.860" timestamp="1626846983249" />
+    <state x="376" y="190" key="run.anything.popup" timestamp="1626887591143">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="376" y="190" key="run.anything.popup/0.0.1440.860@0.0.1440.860" timestamp="1626887591143" />
     <state x="383" y="181" key="search.everywhere.popup" timestamp="1626223825069">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

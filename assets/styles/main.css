@@ -3,8 +3,6 @@
 * PostCSS: v7.0.29,
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
-
- Antaliyadagi Turizm akademiyasi Universiteti
 */
 
 
@@ -423,6 +421,7 @@ header #menuToggle .openBtn:hover {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+
 }
 
 .close {
@@ -819,7 +818,6 @@ main .inform-img {
 }
 
 main .about-us-inform h1 {
-  font-family: "OpenSans-Bold";
   word-spacing: 3.5px;
   font-family: "OpenSans-Bold";
   letter-spacing: 1.2px;
@@ -907,21 +905,26 @@ opacity: 1;
 main .universities {
   padding: 45px 0;
 }
+main .universities h1{
+  font-size: 36px;
+  font-family: "Roboto-Bold";
+  color: #00b1e3;
+}
 main .universities ul{
-  padding-top: 15px;
+  padding-top: 10px;
   padding-bottom: 35px;
 }
 main .universities ul li{
   display: inline;
-  padding: 8px 20px;
+  padding: 10px 20px;
   margin-right:5px ;
   pointer-events:stroke;
   letter-spacing: 0.5px;
 
 }
 .list{
-  background-color: #eeeeee;
-  border-radius: 2px;
+  background-color: #fefefe;
+  border-radius: 4px;
   color: #000020;
   font-weight: 500;
   cursor: pointer;
@@ -952,9 +955,7 @@ main .card-university .team-card-name{
   font-size: 19px;
 }
 main .card-university .team-card-text{
-  line-height: 30px;
   font-size: 15px;
-
 }
 main .card-university .team-card-img{
   width: 100%;
@@ -1106,3 +1107,4 @@ main .card-university:hover>.card-btn{
 .footer-bottom span {
   display: block;
 }
+
