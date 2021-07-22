@@ -34,6 +34,7 @@
             logo.classList.toggle("hide");
             hamburg.classList.toggle("d-none");
             navbar.classList.toggle("slideDown");
+            navbar.classList.toggle("circle-close");
             navbarNav.classList.toggle("hide");
             closeBtn.classList.toggle("toggle");
             language.classList.toggle("hide");
@@ -49,6 +50,7 @@
                 toggle = false;
                 scrollTop.classList.remove("active-btn");
                 navbar.classList.toggle('mainbg');
+
                 // link.style.color = "#fefefe";
 
             }
