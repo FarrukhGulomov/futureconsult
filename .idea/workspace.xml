@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="45510a67-34fa-49d1-a869-152b56531399" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/universities.html" beforeDir="false" afterPath="$PROJECT_DIR$/universities.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Shelf.Project.Settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -84,7 +87,8 @@
       <workItem from="1626852810118" duration="789000" />
       <workItem from="1626858079558" duration="609000" />
       <workItem from="1626870010160" duration="11596000" />
-      <workItem from="1626952426964" duration="1932000" />
+      <workItem from="1626952426964" duration="6837000" />
+      <workItem from="1627149401718" duration="1117000" />
     </task>
     <servers />
   </component>
@@ -107,10 +111,14 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="514" y="126" key="VCS.ChangeListViewerDialog/0.0.1440.860@0.0.1440.860" timestamp="1626846983249" />
-    <state x="376" y="190" key="run.anything.popup" timestamp="1626887591143">
+    <state x="537" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1626961188496">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="376" y="190" key="run.anything.popup/0.0.1440.860@0.0.1440.860" timestamp="1626887591143" />
+    <state x="537" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.860@0.0.1440.860" timestamp="1626961188496" />
+    <state x="376" y="190" key="run.anything.popup" timestamp="1626961986353">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="376" y="190" key="run.anything.popup/0.0.1440.860@0.0.1440.860" timestamp="1626961986353" />
     <state x="383" y="181" key="search.everywhere.popup" timestamp="1626223825069">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

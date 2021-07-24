@@ -251,6 +251,7 @@
    .circle-close {
     animation: navbarClose .5s forwards;
   }
+
   @keyframes navbar {
     from{
       height: 100vh;
@@ -268,15 +269,18 @@
       height: 100vh;
 
     }
-    65%{
+    50%{
 
-      clip-path: circle(30% at 100% 0%);
-      left: 100%;
-      height: 100px;
+      clip-path: circle(35% at 100% 0);
+
+
+      height: 100%;
     }
     100%{
-      left: 0;
+
+
       height: 100px;
+
     }
 
   }
