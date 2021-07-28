@@ -17,7 +17,6 @@ ready(function () {
             loader.style.display = "none";
         }, 500);
     }, 2000);
-
     //Hamburg menu //
     var hamburg = document.querySelector(".openBtn");
     var navbar = document.querySelector(".navbar");
@@ -28,21 +27,17 @@ ready(function () {
     var closeBtn = document.querySelector(".closeBtn");
     var toggle = false;
 
-
     // function Toggle menu
     function navbarFunc() {
         logo.classList.toggle("hide");
         hamburg.classList.toggle("d-none");
         navbar.classList.toggle("slideDown");
-        navbar.classList.toggle("circle-close");
         navbarNav.classList.toggle("hide");
         closeBtn.classList.toggle("toggle");
         language.classList.toggle("hide");
         navbar.classList.toggle('mainbg');
 
-
     }
-
     hamburg.addEventListener("click", (e) => {
         e.preventDefault();
         toggle = true;
@@ -51,15 +46,12 @@ ready(function () {
             navbarFunc();
             toggle = false;
             scrollTop.classList.remove("active-btn");
-
-
         }
     });
     closeBtn.addEventListener("click", (e) => {
         e.preventDefault();
         if (!toggle) {
             navbarFunc();
-
 
         }
     });
@@ -72,15 +64,12 @@ ready(function () {
     multiLang.addEventListener("mouseover", () => {
 
         langBox.classList.add("active-lang_Box");
-
-
         langTwo.forEach(value => {
             value.addEventListener("click", () => {
 
             });
 
         });
-
 
     });
 
@@ -90,7 +79,6 @@ ready(function () {
 
             langBox.classList.remove("active-lang_Box");
         }, 300);
-
 
     });
 
@@ -104,7 +92,6 @@ ready(function () {
             navbar.classList.remove("active-navbar");
 
         }
-
 
     });
 
