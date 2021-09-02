@@ -267,7 +267,7 @@ header a {
   position: fixed;
   top: 0;
   right: 0;
-  left: 0;
+  left: 0;  
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -513,7 +513,7 @@ main .btn-content a {
   margin-right: 10px;
 }
 
-.btn-:hover {
+.btn:hover {
   -webkit-transform: translateY(-3px);
   -ms-transform: translateY(-3px);
   transform: translateY(-3px);

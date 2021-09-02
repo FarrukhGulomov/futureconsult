@@ -82,14 +82,14 @@
     left: 0px;
     z-index: -1;
   }
-  main .introduction::before{
+  /* main .introduction::before{
     opacity: 0.75;
     clip-path: circle(64% at 50% 2%);
-  }
-  main .introduction::after {
+  } */
+  /* main .introduction::after {
     
     opacity:.1;
-  }
+  } */
 
   /*Animations*/
   @-webkit-keyframes moveInLeft {
@@ -262,14 +262,6 @@
 
   }
 
-
-
-
-
-  /* ::-webkit-scrollbar {
-width: 0px;
-background: rgba(255, 255, 255, 0.0);
-} */
 
   .navbar {
     padding-top: 20px;
@@ -482,7 +474,7 @@ background: rgba(255, 255, 255, 0.0);
     -webkit-box-shadow: none;
     box-shadow: none;
     padding: 0;
-    height: 485px;
+    height: 400px;
   }
   main .fullInform-photo {
     height: 200px;
@@ -490,15 +482,14 @@ background: rgba(255, 255, 255, 0.0);
   main .fullInform-text h1 {
     font-size: 24px;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  }
+  -ms-flex-pack: center;
+    justify-content: center;}
   main .fullInform-text h1 span {
     margin: 0 10px;
   }
   main .fullInform-text p {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 18px;
   }
   /*section-3*/
   main .advantages h1 {
@@ -534,9 +525,9 @@ background: rgba(255, 255, 255, 0.0);
     letter-spacing: 2.5px;
   }
   main .feedback .feedback-text {
-    font-size: 14px;
-    padding: 0 15px;
-    line-height: 16px;
+    font-size: 16px;
+    padding: 0 20px;
+    line-height: 20px;
   }
 
   /*section-5*/
@@ -549,13 +540,81 @@ background: rgba(255, 255, 255, 0.0);
     font-family: "OpenSans-Regular";
   }
   main .media p {
-    font-size: 14px;
+    font-size: 16px;
     padding: 0;
     padding-bottom: 10px;
   }
   main .media iframe {
     height: 250px;
   }
+
+  /*about styles */
+main .about-us-bg {
+  padding: 55px 0;
+}
+main .about-us-bg p {
+  font-size: 20px;
+}
+main .about-us-bg h1 {
+  font-size: 20px;
+  line-height: 60px; 
+}
+main .about-us-inform h1 {
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 1.2px;
+}
+main .about-us-inform p {
+  font-size: 16px;
+  padding-top: 10px;
+  line-height: 22px;
+  padding: 0px 5px;
+  padding-bottom: 10px;
+  text-align: justify;
+
+}
+main .inform-img {
+  padding: 160px 0;
+  border-radius: 4px;
+}
+main .about-us-inform .target-box{
+margin:0;
+padding:0;
+background-color: transparent;
+box-shadow: none;
+border: none;
+}
+main .about-us-inform .target-box p {
+  font-size: 16px;
+  text-indent: 50px;
+  line-height: 24px;
+
+}
+main .office-img li {
+  width: 100%;
+}
+/*universities  styles */
+main .universities h1 {
+  text-align: center;
+}
+main .universities ul li {
+  display: block;
+  margin: 0px;
+  padding: 0;
+ background-color: transparent;
+}
+.active-state, .list:hover {
+  background-color: transparent;
+  color: #fefefe;
+}
+.list {
+  background-color: transparent;
+  border:none;
+  color: #000020;
+}
+main .universities ul li:not(:first-child) {
+margin-left: 0px;
+}
   /*Footer*/
 
   .footer ul {
@@ -598,7 +657,7 @@ background: rgba(255, 255, 255, 0.0);
   main .introduction .main-card h1 {
     font-size: 22px;
     line-height: 30px;
-    word-spacing: 1;
+    word-spacing: 1px;
     letter-spacing: 0.6px;
   }
   main .introduction .main-card p {
@@ -610,6 +669,21 @@ background: rgba(255, 255, 255, 0.0);
   }
   .btn-content {
     padding-bottom: 0px;
+  }
+  main .educational-videos h1 {
+    font-size: 46px;
+    adding-top: 35px;
+    padding-bottom: 10px;
+    line-height: 30px;
+  }
+  main .fullInform-logo {
+    display: none;
+  }
+  main .fullInform-text{
+    height: 550px;
+  }
+  .main .fullInform-photo{
+    padding-top: 25px;
   }
 }
 
