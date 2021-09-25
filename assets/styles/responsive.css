@@ -434,14 +434,14 @@
     text-align: center;
   }
   main .introduction .main-card h1 {
-    font-size: 24px;
     line-height: 25px;
-    word-spacing: 0.5px;
+    word-spacing: 1.5px;
   }
   main .introduction .main-card p {
     font-size: 16px;
     padding-top: 5px;
     padding-bottom: 25px;
+    line-height: 26px;
   }
   .btn-content {
     padding-bottom: 0px;
@@ -477,19 +477,23 @@
     height: 400px;
   }
   main .fullInform-photo {
-    height: 200px;
+    margin-top: 120px;
   }
   main .fullInform-text h1 {
     font-size: 24px;
     -webkit-box-pack: center;
   -ms-flex-pack: center;
-    justify-content: center;}
+    justify-content: center;
+    letter-spacing: 4.2px;
+  }
   main .fullInform-text h1 span {
     margin: 0 10px;
   }
   main .fullInform-text p {
     font-size: 16px;
-    line-height: 18px;
+    line-height: 26px;
+    padding: 0;
+  
   }
   /*section-3*/
   main .advantages h1 {
@@ -527,7 +531,7 @@
   main .feedback .feedback-text {
     font-size: 16px;
     padding: 0 20px;
-    line-height: 20px;
+    line-height: 24px;
   }
 
   /*section-5*/
